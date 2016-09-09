@@ -12,6 +12,11 @@ repositories {
     jcenter()
 }
 
+dependencies {
+    jrubyExec 'rubygems:color:1.8'
+    jrubyExec 'rubygems:libusb:0.5.1'
+}
+
 import com.github.jrubygradle.JRubyExec
 
 task runTool(type: JRubyExec) {

@@ -8,6 +8,7 @@ repositories {
 mainClassName = 'de.eightbitboy.BlinkStickTool'
 
 dependencies {
+    compile fileTree(dir: 'lib', include: ['*.jar'])
     compile 'org.codehaus.groovy:groovy-all:2.4.7'
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
     testCompile 'junit:junit:4.12'

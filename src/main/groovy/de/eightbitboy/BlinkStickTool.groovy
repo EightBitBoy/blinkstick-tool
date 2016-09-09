@@ -8,5 +8,8 @@ class BlinkStickTool {
 
 		BlinkStick device = BlinkStick.findFirst();
 		println(device)
+		device.setColor(100, 0, 255)
+
+		System.exit(0)
 	}
 }
